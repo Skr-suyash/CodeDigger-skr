@@ -11,6 +11,15 @@ For example -
 Consider this sequence bCApPPcDpPA - The typed string will be "" -> "b" -> "bC" -> "bcA" -> "CA" -> "C" -> "" -> "c" -> "cD" -> "D" -> "" -> "A"
 Hence final text is A
 
+--------------------------------------------------------------------------------------------
+
+Input - 
+The first line contain the number of test cases (t).
+Each of the following t lines contain a string s consisting of lowercase and uppercase alphabets, the sequence of characters he pressed.
+
+Output - 
+Print a string which is the final typed text produced according to the rules.
+
 Attribution - https://codeforces.com/problemset/problem/1907/B
 The logic is same but wording is changed. Problem showcases a nice use of stack data structure
 

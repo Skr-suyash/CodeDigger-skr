@@ -1,0 +1,16 @@
+Name - Evan's Unusual Keyboard
+
+Evan has a magical keyboard with strange functionality. Whenever he types, two special keys perform unexpected actions:-
+
+    1. Pressing the 'p'(lowercase) key removes the most recent lowercase letter from the text he's typing. If no lowercase letters are available, this key does nothing.
+    2. Pressing the 'P'(uppercase) key removes the most recent uppercase letter from the text he's typing. If no uppercase letters are available, this key does nothing.
+    3. Neither the 'p' nor the 'P' letters are added to the text when these keys are pressed.
+    
+Your task is to simulate Evan’s typing process and determine the final text he produces after typing a given sequence of characters.
+For example -
+Consider this sequence bCApPPcDpPA - The typed string will be "" -> "b" -> "bC" -> "bcA" -> "CA" -> "C" -> "" -> "c" -> "cD" -> "D" -> "" -> "A"
+Hence final text is A
+
+Attribution - https://codeforces.com/problemset/problem/1907/B
+The logic is same but wording is changed. Problem showcases a nice use of stack data structure
+
